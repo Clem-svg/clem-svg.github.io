@@ -1,0 +1,130 @@
+body {
+  margin-top: 10px;
+  width: 97%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:#555;
+}
+
+#NavHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; 
+  font-size: small;
+}
+
+.option {
+  margin: 0 5px;
+  
+}
+
+.option:hover {
+  text-decoration: underline;
+  color: red; /* Ne marche pas*/
+  
+}
+
+.option1 {
+  margin: 0 5px;
+}
+
+.option1:hover {
+  background-image: url(images/apps2.png);
+
+}
+
+
+
+#CentrePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.LogoGoogle {
+  margin-bottom: 20px;
+}
+
+input#recherche{
+  background-image: url(images/loupe.png), url(images/micro.png);
+  background-repeat: no-repeat;
+  background-position: 0.5% 55%, 98% 55%;
+  text-indent: 20px;
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 1px 1px 3px 3px rgb(204, 204, 204);
+  margin-bottom: 30px;
+  font-size: 14px;
+  text-align: left;
+ }
+ 
+ input#recherche:focus{
+  background-image:none;
+  text-indent: 20px;
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+ }
+
+
+button {
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 10px;;
+  margin-bottom: 300px;
+  padding:15px 15px 15px 15px;
+	background:#f5f5f5;
+  color:#555;
+  border: none;
+  font-size: 14px;
+  border-radius: 10%;
+}
+
+button:hover {
+  border: 5px bold solid rgb(104, 104, 104); /* Se comporte comme un onclick?*/
+}
+
+hr {
+  height: 1px;
+  background-color:#d3d0d0;
+  border: none;
+}
+
+footer {
+
+     position:absolute;
+     bottom:0;
+     width:99%;
+     height: 60px;
+     color:#555;
+     font-size: 14px;
+     background-color: #f5f5f5;
+     background-origin: padding-box;
+     background-repeat: no-repeat;
+     padding-bottom: 40px;
+     
+     
+    }
+     
+ #OptionsFooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+#OptionsFooter div a:hover {
+  text-decoration: underline;
+
+}
